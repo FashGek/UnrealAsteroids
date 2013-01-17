@@ -1,9 +1,23 @@
-#ignore everything
-*
+# Ignore Everything
+/*
 
-#except
+# Except for...
 !.gitignore
-!readme.md
-!/UDKGame/Config/DefaultEngine.ini
+!README.md
+
+# /Devlopment/Src/AsteroidsGame/Classes
+!/Development/
+/Development/*
+!/Development/Src/
+/Development/Src/*
+!/Development/Src/AsteroidsGame/
+/Development/Src/AsteroidsGame/*
+!/Development/Src/AsteroidsGame/Classes
+
+# /UDKGame/Config/
+!/UDKGame/
+/UDKGame/*
+!/UDKGame/Config/
+/UDKGame/Config/*
 !/UDKGame/Config/DefaultGame.ini
-!/Development/Src/AsteroidsGame
+!/UDKGame/Config/DefaultEngine.ini
