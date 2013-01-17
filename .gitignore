@@ -4,3 +4,6 @@
 #except
 !.gitignore
 !readme.md
+!/UDKGame/Config/DefaultEngine.ini
+!/UDKGame/Config/DefaultGame.ini
+!/Development/Src/AsteroidsGame
